@@ -1,6 +1,7 @@
 import React from 'react';
 import { Avatar } from './avatar';
 import { ParticleBackground } from './particle-background';
+import { Socials } from './socials';
 
 export class LandingPage extends React.Component {
     render() {
@@ -15,6 +16,7 @@ export class LandingPage extends React.Component {
               <span id="animatedWhoAmI"></span>
           </div>
           <button id="enterWebsite" className="top-margin-mini landingPageEnterButton">Enter</button>
+          <Socials/>
         </div>
       </div>
       );

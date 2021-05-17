@@ -16,7 +16,7 @@
 }
 
 .landingPageHeader h3 {
-  color: white;
+  color: #d98e20;
   text-shadow: 0 2px 0 rgba(0, 0, 0, 0.5);
   font-size: 40px;
 }
@@ -24,7 +24,7 @@
 .landingPageHeader span::before {
   content: '';
   animation: animate infinite 8s;
-  color: rgba(255, 255, 255, 0.829);
+  color: white;
   padding: 0;
   margin: 0;
   text-shadow: 0 2px 0 rgba(0, 0, 0, 0.5);
@@ -118,4 +118,32 @@
   width: 150px;
   height: 150px;
   border-radius: 48%;
+}
+
+.socials {
+  font-size: 40px;
+  color: #d6a150;
+  text-shadow:
+    0 1px 0px #d98e20,
+    1px 0 0px #d6a150,
+    1px 2px 1px #d98e20,
+    2px 1px 1px #d6a150,
+    2px 3px 2px #d98e20,
+    3px 2px 2px #d6a150,
+    3px 4px 2px #d98e20,
+    4px 3px 3px #d6a150,
+    4px 5px 3px #d98e20,
+    5px 4px 2px #d6a150,
+    5px 6px 2px #d98e20,
+    6px 5px 2px #d6a150,
+    6px 7px 1px #d98e20,
+    7px 6px 1px #d6a150,
+    7px 8px 0px #d98e20,
+    8px 7px 0px #d6a150;
+}
+
+.socials a {
+  margin-right: 10px;
+  margin-left: 10px;
+  color: #d6a150;
 }
