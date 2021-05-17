@@ -1,5 +1,6 @@
 import React from 'react';
 import { Avatar } from './avatar';
+import { Navbar } from './navbar';
 import { ParticleBackground } from './particle-background';
 import { Socials } from './socials';
 
@@ -7,7 +8,7 @@ export class LandingPage extends React.Component {
     render() {
       return (
       <div>
-        <ParticleBackground/>
+        {/* <ParticleBackground/>
         <div className="landingPageContainer">
           <Avatar/>
           
@@ -17,7 +18,9 @@ export class LandingPage extends React.Component {
           </div>
           <button id="enterWebsite" className="top-margin-mini landingPageEnterButton">Find Out More</button>
           <Socials/>
-        </div>
+        </div> */}
+        <Navbar/>
+
       </div>
       );
     }
