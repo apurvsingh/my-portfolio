@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaHackerrank } from "react-icons/fa";
+import { FaEnvelope } from "react-icons/fa";
 
 export class Socials extends Component{
     render(){
@@ -15,6 +16,9 @@ export class Socials extends Component{
                 </a>
                 <a href="https://www.hackerrank.com/apurvsingh95" target="blank">
                     <FaHackerrank/>
+                </a>
+                <a href="#" target="blank">
+                    <FaEnvelope/>
                 </a>
             </div>
         );

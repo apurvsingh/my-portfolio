@@ -15,7 +15,7 @@ export class LandingPage extends React.Component {
             <h3>I'm Apurv</h3>
               <span id="animatedWhoAmI"></span>
           </div>
-          <button id="enterWebsite" className="top-margin-mini landingPageEnterButton">Enter</button>
+          <button id="enterWebsite" className="top-margin-mini landingPageEnterButton">Find Out More</button>
           <Socials/>
         </div>
       </div>
