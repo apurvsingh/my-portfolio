@@ -3,9 +3,10 @@ import Particles from "react-particles-js";
 
 export class ParticleBackground extends React.Component {
     render() {
-      return (<div id="particleBackground">
-        <Particles
-          params={{
+      return (
+        <div id = "particleBackground">
+          <Particles
+          params = { {
             "particles": {
                 "number": {
                     "value": 50
@@ -22,7 +23,9 @@ export class ParticleBackground extends React.Component {
                     }
                 }
             }
-        }} />
-      </div>);
+          } }
+          />
+        </div>
+);
     }
   }

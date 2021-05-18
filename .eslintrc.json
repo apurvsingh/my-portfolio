@@ -1,0 +1,80 @@
+{
+    "env": {
+        "browser": true,
+        "es2021": true
+    },
+    "extends": [
+        "eslint:recommended",
+        "plugin:react/recommended"
+    ],
+    "parserOptions": {
+        "ecmaFeatures": {
+            "jsx": true
+        },
+        "ecmaVersion": 12,
+        "sourceType": "module"
+    },
+    "plugins": [
+        "react"
+    ],
+    "rules": {
+        "react/jsx-indent": [
+            "warn",
+            2,
+            {
+                "checkAttributes": true,
+                "indentLogicalExpressions": true
+            }
+        ],
+        "react/jsx-first-prop-new-line": [
+            "warn",
+            "multiline"
+        ],
+        "react/jsx-closing-bracket-location": [
+            "warn",
+            "tag-aligned"
+        ],
+        "react/jsx-curly-spacing": [
+            1,
+            {
+                "when": "always"
+            }
+        ],
+        "react/jsx-equals-spacing": [
+            2,
+            "always"
+        ],
+        "react/jsx-max-props-per-line": [
+            2,
+            {
+                "when": "multiline"
+            }
+        ],
+        "react/jsx-pascal-case": [
+            2,
+            {
+                "allowAllCaps": false,
+                "allowNamespace": true
+            }
+        ],
+        "react/jsx-one-expression-per-line": [
+            2,
+            {
+                "allow": "literal"
+            }
+        ],
+        "react/jsx-wrap-multilines": [
+            2,
+            {
+                "declaration": "parens-new-line",
+                "assignment": "parens-new-line",
+                "return": "parens-new-line",
+                "arrow": "parens-new-line",
+                "condition": "ignore",
+                "logical": "ignore",
+                "prop": "ignore"
+            }
+        ]
+    },
+    "root": true
+}
