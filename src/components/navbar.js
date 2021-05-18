@@ -1,30 +1,31 @@
 import React, { Component } from 'react';
+import { Link } from 'react-scroll'
 export class NavbarComponent extends Component{
     render(){
         return(
           <nav>
             <input id = "nav-toggle" type = "checkbox"></input>
             <div className = "logo">
-              <strong>Apurv</strong>
+              <Link to = "about" smooth = { true } duration = { 750 } >Apurv</Link>
             </div>
             <ul className = "links">
               <li>
-                <a href = "#about">About</a>
+                <Link to = "about" smooth = { true } duration = { 500 } >About</Link>
               </li>
               <li>
-                <a href = "#services">Services</a>
+                <Link to = "services" smooth = { true } duration = { 500 } >Services</Link>
               </li>
               <li>
-                <a href = "#mySkills">My Skills</a>
+                <Link to = "mySkills" smooth = { true } duration = { 500 } >My Skills</Link>
               </li>
               <li>
-                <a href = "#experience">Experience</a>
+                <Link to = "experience" smooth = { true } duration = { 500 }>Experience</Link>
               </li>
               <li>
-                <a href = "#testimonial">Testimonial</a>
+                <Link to = "testimonial" smooth = { true } duration = { 500 }>Testimonial</Link>
               </li>
               <li>
-                <a href = "#contact">Contact</a>
+                <Link to = "contact" smooth = { true } duration = { 500 } >Contact</Link>
               </li>
             </ul>
             <label htmlFor = "nav-toggle" className = "icon-burger">

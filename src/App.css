@@ -176,18 +176,18 @@ nav .links {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  color: #faf1e6;
 }
 
 nav .links li {
   list-style: none;
 }
 
-nav .links a {
+nav .links Link {
   display: block;
   padding: 1em;
   font-size: 16px;
   font-weight: bold;
-  color: #faf1e6;
   text-decoration: none;
 }
 
@@ -250,7 +250,7 @@ nav .icon-burger .line {
     color: #d98e20;
   }
 
-  nav .links a {
+  nav .links Link {
     font-size: 20px;
   }
 
@@ -273,4 +273,14 @@ nav .icon-burger .line {
   nav :checked~.icon-burger .line:nth-child(2) {
     opacity: 0;
   }
+}
+
+.test {
+  background-color: #d98e20;
+  min-height: 700px;
+}
+
+.test2 {
+  background-color: rgb(37, 127, 201);
+  min-height: 700px;
 }

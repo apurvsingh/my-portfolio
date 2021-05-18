@@ -3,6 +3,7 @@ import { Avatar } from './avatar';
 import { NavbarComponent } from './navbar';
 import { ParticleBackground } from './particle-background';
 import { Socials } from './socials';
+import {withRouter} from 'react-router-dom';
 
 export class LandingPage extends React.Component {
     render() {
@@ -17,10 +18,17 @@ export class LandingPage extends React.Component {
               <h3>I&#39;m Apurv</h3>
               <span id = "animatedWhoAmI"></span>
             </div>
-            <button id = "enterWebsite" className = "top-margin-mini landingPageEnterButton">Find Out More</button>
+            <button id = "enterWebsite" className = "top-margin-mini landingPageEnterButton" onClick = { () => this.nextPath('/home') }>Find Out More</button>
             <Socials/>
           </div>
         </div>
       );
     }
+
+    nextPath(path) {
+      // eslint-disable-next-line react/prop-types
+      this.props.history.push(path);
+    }
   }
+  
+  export default withRouter(LandingPage);
