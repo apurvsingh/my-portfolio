@@ -313,14 +313,8 @@ nav .icon-burger .line {
   margin: 0;
 }
 
-/* TODO: Delete these 2 test classes */
-.test {
-  background-color: #d98e20;
-  min-height: 700px;
-}
-
-.test2 {
-  background-color: rgb(37, 127, 201);
+.greySection {
+  background-color: #e7e6e1;
   min-height: 700px;
 }
 
