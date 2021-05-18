@@ -3,29 +3,30 @@ import { Link } from 'react-scroll'
 export class NavbarComponent extends Component{
     render(){
         return(
-          <nav>
+          // eslint-disable-next-line react/prop-types
+          <nav style = { { backgroundColor: this.props.backgroundColor } }>
             <input id = "nav-toggle" type = "checkbox"></input>
             <div className = "logo">
               <Link to = "about" smooth = { true } duration = { 750 } >Apurv</Link>
             </div>
             <ul className = "links">
               <li>
-                <Link to = "about" smooth = { true } duration = { 500 } >About</Link>
+                <Link to = "about" smooth = { true } duration = { 750 } >About</Link>
               </li>
               <li>
-                <Link to = "services" smooth = { true } duration = { 500 } >Services</Link>
+                <Link to = "services" smooth = { true } duration = { 750 } >Services</Link>
               </li>
               <li>
-                <Link to = "mySkills" smooth = { true } duration = { 500 } >My Skills</Link>
+                <Link to = "mySkills" smooth = { true } duration = { 750 } >My Skills</Link>
               </li>
               <li>
-                <Link to = "experience" smooth = { true } duration = { 500 }>Experience</Link>
+                <Link to = "experience" smooth = { true } duration = { 750 }>Experience</Link>
               </li>
               <li>
-                <Link to = "testimonial" smooth = { true } duration = { 500 }>Testimonial</Link>
+                <Link to = "testimonial" smooth = { true } duration = { 750 }>Testimonial</Link>
               </li>
               <li>
-                <Link to = "contact" smooth = { true } duration = { 500 } >Contact</Link>
+                <Link to = "contact" smooth = { true } duration = { 750 } >Contact</Link>
               </li>
             </ul>
             <label htmlFor = "nav-toggle" className = "icon-burger">
@@ -41,3 +42,7 @@ export class NavbarComponent extends Component{
       // console.log(document.querySelector('#nav'))
     }
 }
+
+NavbarComponent.defaultProps = {
+  backgroundColor: '#02475e'
+};

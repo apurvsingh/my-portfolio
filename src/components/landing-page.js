@@ -4,13 +4,14 @@ import { NavbarComponent } from './navbar';
 import { ParticleBackground } from './particle-background';
 import { Socials } from './socials';
 import {withRouter} from 'react-router-dom';
+import { MyButton } from './button';
 
 export class LandingPage extends React.Component {
     render() {
       return (
-        <div>
+        <div className = "globalBackground">
           <ParticleBackground/>
-          <NavbarComponent/>
+          <NavbarComponent backgroundColor = { 'transparent' }/>
           <div className = "landingPageContainer">
             <Avatar/>
           
@@ -18,7 +19,11 @@ export class LandingPage extends React.Component {
               <h3>I&#39;m Apurv</h3>
               <span id = "animatedWhoAmI"></span>
             </div>
-            <button id = "enterWebsite" className = "top-margin-mini landingPageEnterButton" onClick = { () => this.nextPath('/home') }>Find Out More</button>
+
+            <div onClick = { () => this.nextPath('/home') }>
+              <MyButton caption = { 'Find out more' } fontSize = { '1em' } id = { 'landingPageButton' } />
+            </div>
+            
             <Socials/>
           </div>
         </div>

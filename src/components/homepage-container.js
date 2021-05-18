@@ -9,12 +9,15 @@ import { Testimonial } from './testimonials';
 
 export class HomepageContainer extends React.Component {
     render(){
+      
         return(
-          <>       
-            <NavbarComponent/>
-
-            <div className = "top-margin-mini">
-              HomepageContainer
+          <div>
+            <div>
+              <NavbarComponent backgroundColor = { '#02475e' }/>
+            </div>       
+            
+            <br/>
+            <div>
               <About/>
               <Services/>
               <MySkills/>
@@ -22,7 +25,7 @@ export class HomepageContainer extends React.Component {
               <Testimonial/>
               <Contact/>
             </div>
-          </>          
+          </div>          
 );
     }
 }

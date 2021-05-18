@@ -23,9 +23,6 @@ function App() {
         <Route path = '/home' component = { HomepageContainer }/>            
         <Route path = '/' component = { LandingPage }/>            
       </Switch>
-      {/* <div>
-        <LandingPage />
-      </div> */}
     </>
     
   );
