@@ -1,6 +1,8 @@
 import React from 'react';
 import profilePicture from '../mediaSources/profile-picture.jpg'
 import { MyButton } from './button';
+// @ts-ignore
+import pdf from '../mediaSources/cv.pdf'
 
 export class About extends React.Component {
     render(){
@@ -24,7 +26,9 @@ export class About extends React.Component {
                     </p>
                   </div>
                   <div className = "top-margin-mini">
-                    <MyButton caption = { 'Download CV' } fontSize = { '0.8em' } id = { 'downloadCv' }/>
+                    {/* <a href='/somefile.txt' download>Click to download</a>  */}
+                    {/* Check this */}
+                    <MyButton caption = { 'View CV' } fontSize = { '0.8em' } id = { 'downloadCv' } link = { pdf }/>
                   </div>
                 </div>
                 <div className = "image-section">
@@ -34,5 +38,11 @@ export class About extends React.Component {
             </div>
           </>
         );
+    }
+
+    componentDidMount(){
+      const downloadButton = document.querySelector('#downloadCv');
+      downloadButton.setAttribute("target", "_blank");
+      console.log(downloadButton);
     }
 }

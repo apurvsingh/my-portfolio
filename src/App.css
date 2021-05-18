@@ -91,10 +91,14 @@
     12px 12px 0 0 #d98e20;
   display: block;
   caret-color: transparent;
+  width: 25ch;
+  color: #222;
+  text-decoration: none;
 }
 
 .landingPageEnterButton:hover {
   color: #444;
+  text-decoration: none;
 }
 
 .landingPageEnterButton:active {
@@ -151,6 +155,7 @@
     7px 6px 1px #d6a150,
     7px 8px 0px #d98e20,
     8px 7px 0px #d6a150;
+  text-decoration: none;
 }
 
 .socials a {
@@ -158,6 +163,12 @@
   margin-left: 5px;
   color: #d6a150;
   display: inline;
+  text-decoration: none;
+}
+
+.socials a :hover {
+  text-decoration: none;
+  color: #444;
 }
 
 nav {

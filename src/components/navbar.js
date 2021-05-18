@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
 import { Link } from 'react-scroll'
+import PropTypes from 'prop-types';
+
 export class NavbarComponent extends Component{
     render(){
         return(
-          // eslint-disable-next-line react/prop-types
           <nav style = { { backgroundColor: this.props.backgroundColor } }>
             <input id = "nav-toggle" type = "checkbox"></input>
             <div className = "logo">
@@ -37,12 +38,12 @@ export class NavbarComponent extends Component{
           </nav>
         );
     }
-
-    componentDidMount(){
-      // console.log(document.querySelector('#nav'))
-    }
 }
 
 NavbarComponent.defaultProps = {
   backgroundColor: '#02475e'
+};
+
+NavbarComponent.propTypes = {
+  backgroundColor: PropTypes.string,
 };
