@@ -1,30 +1,42 @@
 import React, { Component } from 'react';
-import {  Nav } from 'react-bootstrap';
-
 export class NavbarComponent extends Component{
     render(){
         return(
-          <div className = "navbar">
-            <Nav
-  activeKey = "/home"
-  onSelect = { (selectedKey) => alert(`selected ${selectedKey}`) }
-            >
-              <Nav.Item>
-                <Nav.Link href = "/home">Active</Nav.Link>
-              </Nav.Item>
-              <Nav.Item>
-                <Nav.Link eventKey = "link-1">Link</Nav.Link>
-              </Nav.Item>
-              <Nav.Item>
-                <Nav.Link eventKey = "link-2">Link</Nav.Link>
-              </Nav.Item>
-              <Nav.Item>
-                <Nav.Link eventKey = "disabled" disabled>
-                  Disabled
-                </Nav.Link>
-              </Nav.Item>
-            </Nav>
-          </div>
+          <nav>
+            <input id = "nav-toggle" type = "checkbox"></input>
+            <div className = "logo">
+              <strong>Apurv</strong>
+            </div>
+            <ul className = "links">
+              <li>
+                <a href = "#about">About</a>
+              </li>
+              <li>
+                <a href = "#services">Services</a>
+              </li>
+              <li>
+                <a href = "#mySkills">My Skills</a>
+              </li>
+              <li>
+                <a href = "#experience">Experience</a>
+              </li>
+              <li>
+                <a href = "#testimonial">Testimonial</a>
+              </li>
+              <li>
+                <a href = "#contact">Contact</a>
+              </li>
+            </ul>
+            <label htmlFor = "nav-toggle" className = "icon-burger">
+              <div className = "line"></div>
+              <div className = "line"></div>
+              <div className = "line"></div>
+            </label>
+          </nav>
         );
+    }
+
+    componentDidMount(){
+      // console.log(document.querySelector('#nav'))
     }
 }

@@ -9,6 +9,7 @@ export class LandingPage extends React.Component {
       return (
         <div>
           <ParticleBackground/>
+          <NavbarComponent/>
           <div className = "landingPageContainer">
             <Avatar/>
           
@@ -19,7 +20,6 @@ export class LandingPage extends React.Component {
             <button id = "enterWebsite" className = "top-margin-mini landingPageEnterButton">Find Out More</button>
             <Socials/>
           </div>
-          <NavbarComponent/>
         </div>
       );
     }
