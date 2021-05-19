@@ -8,7 +8,7 @@ export class About extends React.Component {
     render(){
         return(
           <>
-            <div id = "about" className = "offwhiteSection">
+            <div id = "about" className = "offwhiteSection ">
               <div className = "container">
                 <div className = "content-section">
                   <div className = "title">
@@ -26,8 +26,6 @@ export class About extends React.Component {
                     </p>
                   </div>
                   <div className = "top-margin-mini">
-                    {/* <a href='/somefile.txt' download>Click to download</a>  */}
-                    {/* Check this */}
                     <MyButton caption = { 'View CV' } fontSize = { '0.8em' } id = { 'downloadCv' } link = { pdf }/>
                   </div>
                 </div>
@@ -35,6 +33,8 @@ export class About extends React.Component {
                   <img src = { profilePicture } alt = "Profile Picture"></img>
                 </div>
               </div>
+              <div className = "bottom-margin-mini"></div>
+
             </div>
           </>
         );

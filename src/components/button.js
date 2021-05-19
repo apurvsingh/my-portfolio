@@ -19,12 +19,11 @@ export class MyButton extends Component{
     }
 }
 
-
 MyButton.defaultProps = {
     caption: 'button',
     fontSize: '1em',
     id: 'id',
-    link: '#',
+    link: '',
     // target: 'none',
   };
 

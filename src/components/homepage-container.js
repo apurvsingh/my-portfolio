@@ -2,9 +2,8 @@ import React from 'react';
 import { About } from './about';
 import { Contact } from './contact';
 import { Experience } from './experience';
-import { MySkills } from './my-skills';
 import { NavbarComponent } from './navbar';
-import { Services } from './services';
+import { ServicesAndSkills } from './services';
 import { Testimonial } from './testimonials';
 
 export class HomepageContainer extends React.Component {
@@ -19,8 +18,7 @@ export class HomepageContainer extends React.Component {
             <br/>
             <div>
               <About/>
-              <Services/>
-              <MySkills/>
+              <ServicesAndSkills/>
               <Experience/>
               <Testimonial/>
               <Contact/>
