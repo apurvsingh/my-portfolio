@@ -43,6 +43,5 @@ export class About extends React.Component {
     componentDidMount(){
       const downloadButton = document.querySelector('#downloadCv');
       downloadButton.setAttribute("target", "_blank");
-      console.log(downloadButton);
     }
 }

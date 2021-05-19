@@ -18,7 +18,7 @@ export class NavbarComponent extends Component{
                 <Link to = "services" smooth = { true } duration = { 750 } >My Services &amp; Skills</Link>
               </li>
               <li>
-                <Link to = "experience" smooth = { true } duration = { 750 }>Experience</Link>
+                <Link to = "experience" smooth = { true } duration = { 750 }>My Experience</Link>
               </li>
               <li>
                 <Link to = "testimonial" smooth = { true } duration = { 750 }>Testimonial</Link>
