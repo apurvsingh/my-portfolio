@@ -6,7 +6,7 @@ export class Experience extends React.Component {
         return(
           <div id = "experience"  className = "offwhiteSection">
             <div className = "experience-section">
-              <div className = "inner-widht">
+              <div className = "inner-width">
                 <h1 className = "section-title-dark">My Experience</h1>
                 <div className = "border-dark"></div>
 
@@ -17,7 +17,7 @@ export class Experience extends React.Component {
                         title = "Software Engineer 2"
                         companyName = "Dell"
                         year = "2018-2021"
-                        description = "Full stack development to create a b2b product subscription system<br>New version of b2b code and subsequent code migration<brDell universal payment gateway"
+                        description = "Dell universal payment gateway using microservices &amp; micro frontend architecture<br>Dell b2b product subscription system<br>Dell b2b Checkout flow for Canada &amp; code migration from legacy"
                     />
                   </div>
                   <div className = "experience-box">
