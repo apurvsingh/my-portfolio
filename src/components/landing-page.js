@@ -1,6 +1,5 @@
 import React from 'react';
 import { Avatar } from './avatar';
-import { NavbarComponent } from './navbar';
 import { ParticleBackground } from './particle-background';
 import { Socials } from './socials';
 import {withRouter} from 'react-router-dom';
@@ -11,7 +10,6 @@ export class LandingPage extends React.Component {
       return (
         <div className = "globalBackground">
           <ParticleBackground/>
-          <NavbarComponent backgroundColor = { 'transparent' }/>
           <div className = "landingPageContainer">
             <Avatar/>
           

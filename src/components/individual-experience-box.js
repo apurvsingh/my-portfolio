@@ -5,7 +5,7 @@ import React from 'react';
 export class IndividualExperienceBox extends Component{
     render(){
         return(
-          <div>
+          <div className = "text">
             <div className = "experience-title"> 
               { this.props.title }
             </div>
