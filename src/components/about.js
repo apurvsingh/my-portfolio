@@ -10,16 +10,18 @@ export class About extends React.Component {
           <>
             <div id = "about" className = "offwhiteSection ">
               <div className = "container">
+                <h1 className = "section-title-dark">About</h1>
+                <div className = "border-dark"></div>
                 <div className = "content-section">
                   <div className = "title">
-                    <h1>Data Analyst</h1>
+                    <h4>Data Analyst</h4>
                   </div>
                   <div className = "content">
-                    <h3>
+                    <p>
                       Hi, I am Apurv.
                       I am a business graduate from University of Maryland, CP.
                       I expertise in Python, MySql, R and AWS.
-                    </h3>
+                    </p>
                     <p>
                       I am a former web developer with 4 years of experience 
                       and have extensively worked with C#, ASP .net core, Angular, React, LitElements, NodeJS, Git

@@ -9,6 +9,7 @@
   vertical-align: baseline;
   background: transparent;
   font-family: 'Poppins', sans-serif;
+  cursor: context-menu;
 }
 
 .globalBackground {
@@ -143,37 +144,19 @@
 .socials {
   font-size: 40px;
   color: #d6a150;
-  text-shadow:
-    0 1px 0px #d98e20,
-    1px 0 0px #d6a150,
-    1px 2px 1px #d98e20,
-    2px 1px 1px #d6a150,
-    2px 3px 2px #d98e20,
-    3px 2px 2px #d6a150,
-    3px 4px 2px #d98e20,
-    4px 3px 3px #d6a150,
-    4px 5px 3px #d98e20,
-    5px 4px 2px #d6a150,
-    5px 6px 2px #d98e20,
-    6px 5px 2px #d6a150,
-    6px 7px 1px #d98e20,
-    7px 6px 1px #d6a150,
-    7px 8px 0px #d98e20,
-    8px 7px 0px #d6a150;
   text-decoration: none;
 }
 
 .socials a {
   margin-right: 20px;
   margin-left: 5px;
-  color: #d98e20;
+  color: #d6a150;
   display: inline;
   text-decoration: none;
 }
 
-.socials a :hover {
-  text-decoration: none;
-  color: #d6a150;
+.socials :hover {
+  color: #d98e20;
 }
 
 nav {
@@ -337,7 +320,7 @@ nav .icon-burger .line {
 .container {
   width: 88%;
   display: block;
-  margin: auto;
+  /* margin: auto; */
   padding-top: 18vh;
 }
 
@@ -371,12 +354,6 @@ nav .icon-burger .line {
   font-size: 28px;
 }
 
-.content-section .content h3 {
-  margin-top: 20px;
-  color: #5d5d5d;
-  font-size: 21px;
-}
-
 .content-section .section p {
   margin-top: 10px;
   font-family: sans-serif;
@@ -406,6 +383,7 @@ nav .icon-burger .line {
   color: #faf1e6;
   text-transform: uppercase;
   font-size: 30px;
+  caret-color: transparent;
 }
 
 .section-title-dark {
@@ -413,6 +391,7 @@ nav .icon-burger .line {
   text-align: center;
   text-transform: uppercase;
   font-size: 30px;
+  caret-color: transparent;
 }
 
 .border {
@@ -420,6 +399,7 @@ nav .icon-burger .line {
   height: 2px;
   background: #e7e6e1;
   margin: 40px auto;
+  caret-color: transparent;
 }
 
 .border-dark {
@@ -427,6 +407,7 @@ nav .icon-burger .line {
   height: 2px;
   background: #222;
   margin: 40px auto;
+  caret-color: transparent;
 }
 
 .component-container {
@@ -525,7 +506,7 @@ nav .icon-burger .line {
   }
 
   .testimonial-box .text {
-    font-size: 20px;
+    font-size: 16px;
   }
 
 }
@@ -552,7 +533,7 @@ nav .icon-burger .line {
   }
 
   .testimonial-box .text {
-    font-size: 20px;
+    font-size: 16;
   }
 }
 

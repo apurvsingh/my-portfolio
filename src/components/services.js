@@ -40,7 +40,7 @@ export class ServicesAndSkills extends React.Component {
           <div className = "service-box"> 
             <IndividualService
                 title = "Web Development"
-                description = "Build modern, responsive and appealing websites that catering to all your commercial requirements"
+                description = "Build modern, responsive and appealing websites that cater to all your commercial requirements"
                 icon = {
                   <FaReact/>
                       }
