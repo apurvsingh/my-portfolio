@@ -111,6 +111,10 @@
     5px 5px 0 0 #d98e20;
 }
 
+.top-margin-xs {
+  margin-top: 1vh;
+}
+
 .top-margin-mini {
   margin-top: 5vh;
 }
@@ -493,6 +497,10 @@ nav .icon-burger .line {
     min-height: 120vh;
   }
 
+  .testimonial-box .text {
+    font-size: 14px;
+  }
+
 }
 
 @media screen and (max-width:756px) {
@@ -516,6 +524,10 @@ nav .icon-burger .line {
     min-height: 120vh;
   }
 
+  .testimonial-box .text {
+    font-size: 20px;
+  }
+
 }
 
 @media screen and (max-width:480px) {
@@ -537,6 +549,10 @@ nav .icon-burger .line {
 
   .services-section {
     min-height: 120vh;
+  }
+
+  .testimonial-box .text {
+    font-size: 20px;
   }
 }
 
@@ -588,21 +604,26 @@ nav .icon-burger .line {
   /* align-items: center;justify-content: center; */
 }
 
+.testimonial-desc {
+  max-height: 50%;
+  overflow: scroll;
+}
+
 .testimonial-box {
-  min-height: 40vh;
+  height: 80vh;
   padding-top: 10px;
-  width: 35vh;
+  width: auto;
   background-color: #f8f5f1;
   border-radius: 10px;
   box-shadow: 0 8px 30px rgba(0, 0, 0, .3);
   display: flex;
   flex-flow: column;
   justify-content: space-between;
-  margin: 4vh;
+  margin: 10%;
 }
 
 .testimonial-min-height {
-  height: 60%;
+  height: 50%;
 }
 
 .text {
@@ -613,7 +634,6 @@ nav .icon-burger .line {
 
 .text .testimonial-social a {
   font-size: 30px;
-
   margin-right: 2px;
   margin-left: 5px;
   color: #02475e;
@@ -626,28 +646,32 @@ nav .icon-burger .line {
   color: #0080aa;
 }
 
-.testimonial-image {
-  height: 120px;
-  width: 120px;
-  border-radius: 50%;
-  border: 5px solid white;
-  position: absolute;
-  top: -50%;
-  left: 50%;
-  transform: translateX(-50%);
-  display: flex;
-  justify-content: center;
-  margin-top: 20px;
+.testimonial-person {
+  height: 20%;
+  margin-bottom: 5%;
 }
 
 .testimonial-footer {
   background: linear-gradient(90deg, #02475e 0%, #0080aa 100%);
-  height: 190px;
+  height: 40%;
   border-radius: 0 0 10px 10px;
   position: relative;
 }
 
-.testimonial-person-name {
-  color: #222;
-  font-weight: 600;
+.testimonial-footer .testimonial-image {
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+  border: 5px solid white;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: center;
+  margin-left: 50%;
+  margin-top: 10%;
+}
+
+.swiper-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }

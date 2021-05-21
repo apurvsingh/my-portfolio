@@ -4,7 +4,7 @@ import { Contact } from './contact';
 import { Experience } from './experience';
 import { NavbarComponent } from './navbar';
 import { ServicesAndSkills } from './services';
-import { Testimonial } from './testimonials';
+import Testimonials from './testimonials';
 
 export class HomepageContainer extends React.Component {
     render(){
@@ -20,7 +20,7 @@ export class HomepageContainer extends React.Component {
               <About/>
               <ServicesAndSkills/>
               <Experience/>
-              <Testimonial/>
+              <Testimonials/>
               <Contact/>
             </div>
           </div>          
