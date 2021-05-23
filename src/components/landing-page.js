@@ -21,7 +21,6 @@ export class LandingPage extends React.Component {
             <div onClick = { () => this.nextPath('/home') }>
               <MyButton caption = { 'Find out more' } fontSize = { '1em' } id = { 'landingPageButton' } />
             </div>
-            
             <Socials/>
           </div>
         </div>
