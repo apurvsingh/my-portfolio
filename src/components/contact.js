@@ -10,41 +10,39 @@ export class Contact extends Component {
 
   render(){
     return(
-      <div id = "contact"  className = "offwhiteSection">
-        <div className = "contact-section">
-          <div className = "">
-            <h1 className = "section-title">My Contact</h1>
-            <div className = "border"></div>
+      <div id = "contact" className = "contact-section">
+        <div className = "">
+          <h1 className = "section-title">My Contact</h1>
+          <div className = "border"></div>
 
-            <div className = "contact-container">
-              <div className = "contactInfo">
-                <div className = "box">
-                  <div className = "icon">
-                    <FaMapMarkerAlt/>
-                  </div>
-                  <div className = "text">
-                    <h3>Address</h3>
-                    <p>University Of Maryland, College Park</p>
-                  </div>
+          <div className = "contact-container">
+            <div className = "contactInfo">
+              <div className = "box">
+                <div className = "icon">
+                  <FaMapMarkerAlt/>
                 </div>
-                <div className = "box">
-                  <div className = "icon">
-                    <FaMobileAlt/>
-                  </div>
-                  <div className = "text">
-                    <h3>Phone Number</h3>
-                    <p>Coming soon...</p>
-                  </div>
+                <div className = "text">
+                  <h3>Address</h3>
+                  <p>University Of Maryland, College Park</p>
                 </div>
-                <div className = "box">
-                  <div className = "icon">
-                    <FaEnvelope/>
-                  </div>
-                  <div className = "text">
-                    <h3>e-mail</h3>
-                    <p ref = { this.myRef } id = "copy">apurvsingh95@outlook.com</p>
-                    <CopyToClipboard elementToCopy = { this.myRef }/>
-                  </div>
+              </div>
+              <div className = "box">
+                <div className = "icon">
+                  <FaMobileAlt/>
+                </div>
+                <div className = "text">
+                  <h3>Phone Number</h3>
+                  <p>Coming soon...</p>
+                </div>
+              </div>
+              <div className = "box">
+                <div className = "icon">
+                  <FaEnvelope/>
+                </div>
+                <div className = "text">
+                  <h3>e-mail</h3>
+                  <p ref = { this.myRef } id = "copy">apurvsingh95@outlook.com</p>
+                  <CopyToClipboard elementToCopy = { this.myRef }/>
                 </div>
               </div>
             </div>

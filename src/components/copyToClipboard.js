@@ -24,14 +24,14 @@ export class CopyToClipboard extends Component{
     render(){
         return(
           <div className = "copyToClipboard">
-            <button
+            <div
                 onClick = { e => {
                     this.handleClick(e)
                 } }
             >
               <FaCopy/>
-              ( Click here to copy e-mail to clipboard )
-            </button>
+              ( Click here to copy e-mail )
+            </div>
             {this.state.visible &&
               <span className = "copied-notification"> 
                 <span> 
