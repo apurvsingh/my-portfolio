@@ -42,26 +42,6 @@ export class Contact extends Component {
                 </div>
 
               </div>
-              <div className = "contactForm">
-                <form>
-                  <h2>Send Message</h2>
-                  <div className = "inputBox bottom-margin-mini">
-                    <input type = "text" name = "" required></input>
-                    <span>Full Name</span>
-                  </div>
-                  <div className = "inputBox bottom-margin-mini">
-                    <input type = "text" name = "" required></input>
-                    <span>Email</span>
-                  </div>
-                  <div className = "inputBox bottom-margin-mini">
-                    <textarea name = "" required></textarea>
-                    <span>Message</span>
-                  </div>
-                  <div className = "inputBox bottom-margin-mini">
-                    <input type = "submit" value = "Send"></input>
-                  </div>
-                </form>
-              </div>
             </div>
           </div>
         </div>

@@ -675,7 +675,7 @@ nav .icon-burger .line {
 }
 
 .contact-container .contactInfo {
-  width: 45%;
+  width: 100%;
   display: flex;
   flex-direction: column;
   margin: 30px;
