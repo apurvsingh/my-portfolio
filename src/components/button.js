@@ -10,7 +10,6 @@ export class MyButton extends Component{
                 style = { { fontSize : this.props.fontSize  } } 
                 id = { this.props.id }
                 className = "top-margin-mini landingPageEnterButton"
-                // target = { this.props.target }
             >
               {this.props.caption}
             </a>
@@ -24,14 +23,12 @@ MyButton.defaultProps = {
     fontSize: '1em',
     id: 'id',
     link: '',
-    // target: 'none',
-  };
+};
 
 MyButton.propTypes = {
     caption: PropTypes.any,
     fontSize: PropTypes.string,
     id: PropTypes.string,
     link: PropTypes.string,
-    // target: PropTypes.string,
 };
   

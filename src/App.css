@@ -120,10 +120,6 @@
   margin-top: 5vh;
 }
 
-.top-margin-med {
-  margin-top: 10vh;
-}
-
 .bottom-margin-mini {
   margin-top: 5vh;
 }
@@ -679,6 +675,7 @@ nav .icon-burger .line {
   display: flex;
   flex-direction: column;
   margin: 30px;
+  caret-color: transparent;
 }
 
 .contact-container .contactInfo .box {
@@ -714,57 +711,24 @@ nav .icon-burger .line {
   color: #d98e20;
 }
 
-.contactForm {
-  width: 40%;
-  padding: 20px;
-  margin: 30px;
-}
-
-.contactForm form {
-  padding-top: 20px;
-}
-
-.contactForm h2 {
-  font-size: 30px;
-  font-weight: 500;
-  margin-bottom: 40px;
-}
-
-.contactForm .inputBox input,
-.contactForm .inputBox textarea {
-  width: 100%;
-  padding: 5px;
-  font-size: 16px;
-  border: 0.1px solid #f8f5f1;
-  border-bottom: 2px solid #f8f5f1;
-  resize: none;
-  outline: none;
-  caret-color: #d98e20;
+.contactInfo button {
   color: #f8f5f1;
 }
 
-.contactForm .inputBox textarea {
-  resize: none;
-  border: 0.5px solid #f8f5f1;
-  border-bottom: 2px solid #f8f5f1;
-}
-
-.contactForm .inputBox span {
-  position: relative;
-  left: 50;
-  padding: 25px 0;
-  font-size: 16px;
-  pointer-events: none;
-  transition: 0.5s;
-  color: #f8f5f1;
+.copyToClipboard {
+  cursor: pointer;
   caret-color: transparent;
+  font-size: 15px;
 }
 
-.contactForm .inputBox input:focus~span,
-.contactForm .inputBox input:valid~span,
-.contactForm .inputBox textarea:valid~span,
-.contactForm .inputBox textarea:focus~span {
-  color: #d98e20;
-  font-size: 12px;
-  transform: translateY(-20px);
+.copied-notification {
+  width: 100%;
+  position: absolute;
+  font-size: 18px;
+  color: #4aa96c;
+  margin-left: 10px;
+}
+
+.copied-notification span {
+  padding-left: 10px;
 }

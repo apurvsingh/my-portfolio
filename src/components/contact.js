@@ -1,9 +1,14 @@
 import React, { Component } from 'react';
 import { FaEnvelope, FaMapMarkerAlt, FaMobileAlt } from 'react-icons/fa';
+import { CopyToClipboard } from './copyToClipboard';
 
 export class Contact extends Component {
-  render(){
+  constructor(){
+    super();
+    this.myRef = React.createRef();
+  }
 
+  render(){
     return(
       <div id = "contact"  className = "offwhiteSection">
         <div className = "contact-section">
@@ -37,10 +42,10 @@ export class Contact extends Component {
                   </div>
                   <div className = "text">
                     <h3>e-mail</h3>
-                    <p>apurvsingh95@outlook.com</p>
+                    <p ref = { this.myRef } id = "copy">apurvsingh95@outlook.com</p>
+                    <CopyToClipboard elementToCopy = { this.myRef }/>
                   </div>
                 </div>
-
               </div>
             </div>
           </div>
@@ -49,3 +54,4 @@ export class Contact extends Component {
     );
   }
 }
+
