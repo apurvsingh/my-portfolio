@@ -1,4 +1,3 @@
-/* eslint-disable no-unused-vars */
 import tt  from '../mediaSources/tt.jpg'
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/swiper.min.css";
@@ -12,7 +11,7 @@ import { useWindowSize } from 'hooks/screenWidthHook';
 
 SwiperCore.use([Pagination]);
 
-function Testimonials(_props){
+function Testimonials(){
     const screenWidth = useWindowSize().width;
       return(
         <div id = "testimonial" className = "greySection">
@@ -87,4 +86,4 @@ function GetNumberOfSlides(width){
   return 3;
 }
 
-export default Testimonials; 
+export default Testimonials;
