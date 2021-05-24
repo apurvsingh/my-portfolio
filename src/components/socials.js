@@ -38,7 +38,7 @@ export class Socials extends Component{
               <span> 
                 <FaCheck/>
               </span>
-              <span>Copied</span>
+              <span>e-mail Copied</span>
             </span>
           }
         </div>

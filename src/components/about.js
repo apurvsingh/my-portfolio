@@ -10,14 +10,14 @@ export class About extends React.Component {
           <>
             <div id = "about" className = "offwhiteSection ">
               <div className = "about-container">
-                <div className = "inner-width">
-                  <h1 className = "section-title-dark">About</h1>
-                  <div className = "border-dark"></div>
+                <h1 className = "section-title-dark">About</h1>
+                <div className = "border-dark"></div>
+                <div className = "about-flexbox">
                   <div className = "content-section">
                     <div className = "title">
                       <h4>Data Analyst</h4>
                     </div>
-                    <div className = "content">
+                    <span>
                       <p>
                         Hi, I am Apurv.
                         I am a business graduate from University of Maryland, CP.
@@ -27,15 +27,16 @@ export class About extends React.Component {
                         I am a former web developer with 4 years of experience 
                         and have extensively worked with C#, ASP .net core, Angular, React, LitElements, NodeJS, Git
                       </p>
-                    </div>
-                    <div className = "downloadButton">
-                      <MyButton caption = { 'View CV' } fontSize = { '0.8em' } id = { 'downloadCv' } link = { pdf }/>
-                    </div>
+                    </span>
                   </div>
-                  <div className = "image-section">
+                  <span className = "image-section">
                     <img src = { profilePicture } alt = "Profile Picture"></img>
+                  </span>
+                  <div className = "downloadButton bottom-margin-mini">
+                    <MyButton caption = { 'View CV' } fontSize = { '0.8em' } id = { 'downloadCv' } link = { pdf }/>
                   </div>
                 </div>
+                
               </div>
 
             </div>
