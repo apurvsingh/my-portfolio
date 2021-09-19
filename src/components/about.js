@@ -15,7 +15,7 @@ export class About extends React.Component {
                 <div className = "about-flexbox">
                   <div className = "content-section">
                     <div className = "title">
-                      <h4>Data Analyst</h4>
+                      <h4>Data Scientist</h4>
                     </div>
                     <span>
                       <p>

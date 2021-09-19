@@ -43,7 +43,7 @@
 
 @keyframes animate {
   0% {
-    content: 'Data Analyst';
+    content: 'Data Scientist';
   }
 
   25% {
@@ -59,7 +59,7 @@
   }
 
   100% {
-    content: 'Data Analyst'
+    content: 'Data Scientist'
   }
 
 }

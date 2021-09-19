@@ -32,7 +32,7 @@ export class Contact extends Component {
                 </div>
                 <div className = "text">
                   <h3>Phone Number</h3>
-                  <p>Coming soon...</p>
+                  <p>2407269923</p>
                 </div>
               </div>
               <div className = "box">
@@ -41,7 +41,7 @@ export class Contact extends Component {
                 </div>
                 <div className = "text">
                   <h3>e-mail</h3>
-                  <p ref = { this.myRef } id = "copy">apurvsingh95@outlook.com</p>
+                  <p ref = { this.myRef } id = "copy">apurvsingh95@gmail.com</p>
                   <CopyToClipboard elementToCopy = { this.myRef }/>
                 </div>
               </div>
