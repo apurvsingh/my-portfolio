@@ -29,13 +29,11 @@ export class About extends React.Component {
                       </p>
                     </span>
                   </div>
-                  <div className = "content-subsection">
-                    <span className = "image-section">
-                      <img src = { profilePicture } alt = "Profile Picture"></img>
-                    </span>
-                    <div className = "downloadButton bottom-margin-mini">
-                      <MyButton caption = { 'View CV' } fontSize = { '0.8em' } id = { 'downloadCv' } link = { pdf }/>
-                    </div>
+                  <span className = "image-section">
+                    <img src = { profilePicture } alt = "Profile Picture"></img>
+                  </span>
+                  <div className = "downloadButton bottom-margin-mini">
+                    <MyButton caption = { 'View CV' } fontSize = { '0.8em' } id = { 'downloadCv' } link = { pdf }/>
                   </div>
                 </div>
               </div>
