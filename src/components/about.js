@@ -29,7 +29,7 @@ export class About extends React.Component {
                       </p>
                     </span>
                   </div>
-                  <div className = "content-subsection">
+                  <div>
                     <span className = "image-section">
                       <img src = { profilePicture } alt = "Profile Picture"></img>
                     </span>
