@@ -20,27 +20,23 @@ export class About extends React.Component {
                     <span>
                       <p>
                         Hi, I am Apurv.
-                        I am a business graduate from University of Maryland, CP.
+                        I am a MS Information Systems student from University of Maryland, CP.
                         I expertise in Python, MySql, R and AWS.
                       </p>
                       <p>
-                        I am a former web developer with 4 years of experience 
-                        and have extensively worked with C#, ASP .net core, Angular, React, LitElements, NodeJS, Git
+                        I am a former web developer with 4 years of experience at Dell
+                        and have extensively worked with C#, ASP .net core, Angular, React, LitElements, NodeJS, Git, MVC, microservices and microfrontend
                       </p>
                     </span>
                   </div>
-                  <div className = "content-subsection">
-                    <span className = "image-section">
-                      <img src = { profilePicture } alt = "Profile Picture"></img>
-                    </span>
-                    <div className = "downloadButton bottom-margin-mini">
-                      <MyButton caption = { 'View CV' } fontSize = { '0.8em' } id = { 'downloadCv' } link = { pdf }/>
-                    </div>
+                  <span className = "image-section">
+                    <img src = { profilePicture } alt = "Profile Picture"></img>
+                  </span>
+                  <div className = "downloadButton bottom-margin-mini">
+                    <MyButton caption = { 'View CV' } fontSize = { '0.8em' } id = { 'downloadCv' } link = { pdf }/>
                   </div>
                 </div>
-                
               </div>
-
             </div>
           </>
         );

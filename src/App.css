@@ -314,6 +314,7 @@ nav .icon-burger .line {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  flex: auto;
   justify-content: center;
   background-color: #fdfaf6;
   margin: auto;
@@ -322,23 +323,14 @@ nav .icon-burger .line {
 .content-section {
   caret-color: transparent;
   padding: 20px;
-  display: flex;
-  flex-direction: column;
-  flex-basis: 100%;
-  flex: 1;
-  justify-content: center;
-  min-width: fit-content;
   text-justify: distribute-all-lines;
 }
 .content-subsection{
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  width: 50%;
+  text-align: center;
+  align-items: center;
 }
 
 .image-section {
-  padding: 20px;
   justify-content: center;
   width: 20%;
 }
@@ -357,7 +349,6 @@ nav .icon-burger .line {
 .about-flexbox .downloadButton {
   min-width: 100%;
   min-height: 90px;
-  margin-left: 20px;
 }
 
 .content-section p {
