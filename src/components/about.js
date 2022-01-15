@@ -15,7 +15,7 @@ export class About extends React.Component {
                 <div className = "about-flexbox">
                   <div className = "content-section">
                     <div className = "title">
-                      <h4>Data Scientist</h4>
+                      <h4>Web Development/Data Science Enthusiast</h4>
                     </div>
                     <span>
                       <p>
@@ -29,11 +29,13 @@ export class About extends React.Component {
                       </p>
                     </span>
                   </div>
-                  <span className = "image-section">
-                    <img src = { profilePicture } alt = "Profile Picture"></img>
-                  </span>
-                  <div className = "downloadButton bottom-margin-mini">
-                    <MyButton caption = { 'View CV' } fontSize = { '0.8em' } id = { 'downloadCv' } link = { pdf }/>
+                  <div className = "content-subsection">
+                    <span className = "image-section">
+                      <img src = { profilePicture } alt = "Profile Picture"></img>
+                    </span>
+                    <div className = "downloadButton bottom-margin-mini">
+                      <MyButton caption = { 'View CV' } fontSize = { '0.8em' } id = { 'downloadCv' } link = { pdf }/>
+                    </div>
                   </div>
                 </div>
                 
